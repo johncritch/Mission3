@@ -1,0 +1,33 @@
+﻿body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+label {
+    font-size: 20px;
+    width: 180px;
+    display: inline-block;
+    text-indent: 20px;
+}
+
+.box {
+    width: 800px;
+    margin: auto;
+    text-align:left;
+}
+
+.calculator {
+    width: 400px;
+    border: 5px outset black;
+    margin: auto;
+    text-align: left;
+    background-color: #D3D3D3;
+    right: 20px;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
